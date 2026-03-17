@@ -418,7 +418,7 @@
 </main>
 
 <style>
-  :global(body) {
+  body {
     margin: 0;
     font-family: "Inter", sans-serif;
     background: #eef2f6;

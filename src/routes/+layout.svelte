@@ -23,6 +23,11 @@
 </main>
 
 <style>
+  :global(body) {
+    background-color: white; /* O el color que uses en tu blog */
+    margin: 0;
+    transition: background-color 0.2s ease; /* Opcional: para que el cambio no sea brusco */
+  }
   .navbar {
     border-bottom: 1px solid var(--border-color);
     background: rgba(255, 255, 255, 0.9);

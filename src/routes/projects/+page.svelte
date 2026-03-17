@@ -51,9 +51,9 @@
       A client-side only diagnostic tool for Technical Artists and developers. 
       Drag and drop any .vrm or .gltf file to instantly parse JSON extensions, visualize topology, and debug bone hierarchies without opening Blender.
     </p>
-    <div class="project-links">
+    <!-- <div class="project-links">
       <a href="/vrm-inspector">Launch Tool →</a>
-    </div>
+    </div> -->
   </article>
 </div>
 

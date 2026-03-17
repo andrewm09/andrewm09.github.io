@@ -28,7 +28,7 @@
       A zero-friction web tool to parse, diagnose, and visualize .vrm and .gltf
       files directly in the browser.
     </p>
-    <a href="/vrm-inspector" class="card-link">View Project →</a>
+    <!-- <a href="/vrm-inspector" class="card-link">View Project →</a> -->
   </div>
 
   <!-- <div class="card">

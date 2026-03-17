@@ -1,0 +1,70 @@
+:root {
+  /* Paleta Light Mode (Estilo GitHub/Notion) */
+  --bg-color: #ffffff;
+  --bg-surface: #f6f8fa; /* Para tarjetas y fondos secundarios */
+  --text-main: #24292f;
+  --text-muted: #57606a;
+  --accent: #0969da;
+  --accent-hover: #0349b4;
+  --border-color: #d0d7de;
+  
+  /* Tipografía nativa */
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+.container {
+  max-width: 800px; /* Ancho de lectura óptimo */
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Utilidades para código y etiquetas */
+code {
+  font-family: var(--font-mono);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* --- RESPONSIVIDAD GLOBAL --- */
+
+/* Evita que imágenes, videos o el canvas de Three.js se salgan de la pantalla */
+img, video, canvas, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajustes para pantallas de celular (menores a 768px) */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem 1rem; /* Menos espacio en blanco a los lados */
+  }
+
+  /* Reducimos el tamaño de los títulos para que no ocupen media pantalla */
+  h1 { font-size: 2rem !important; line-height: 1.2; }
+  h2 { font-size: 1.4rem !important; }
+  h3 { font-size: 1.2rem !important; }
+}

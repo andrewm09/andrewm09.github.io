@@ -21,7 +21,6 @@
       <div class="hero-content">
         <h1>Architecting infrastructure<br />for the 3D web.</h1>
         <p class="subtitle">
-          Founder & Product Architect at <strong>Kudo Graphics</strong>. Graphics
           Programmer & Computer Vision Engineer focused on low-level web
           ecosystems (<strong>WebGPU</strong>, <strong>Rust</strong>) to push
           the boundaries of spatial computing and real-time visual tools.
@@ -77,7 +76,7 @@
         </a>
       {/if}
 
-      <a
+      <!-- <a
         href="https://kudo.graphics"
         target="_blank"
         class="bento-card project-highlight"
@@ -91,7 +90,7 @@
         <div class="tech-stack-dark">
           <span>WebGPU</span><span>Rust</span><span>GenAI</span>
         </div>
-      </a>
+      </a> -->
 
       <a href="/vrm-inspector" class="bento-card tool-card">
         <div class="card-tag tag-emerald">Live Tool</div>
@@ -105,8 +104,8 @@
           <Terminal size={14} /> <span>~/contact</span>
         </div>
         <div class="terminal-body">
-          <p><span class="prompt">$</span> contact --email</p>
-          <p class="output">andres@kudo.graphics</p>
+          <!-- <p><span class="prompt">$</span> contact --email</p>
+          <p class="output">andres@kudo.graphics</p> -->
           <p><span class="prompt">$</span> status</p>
           <p class="output">Open to interesting engineering challenges.</p>
         </div>

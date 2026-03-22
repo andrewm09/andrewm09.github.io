@@ -1,11 +1,11 @@
 ---
-title: "Engineering the Future: Why We Chose WebGPU for Kudo Engine"
+title: "Engineering the Future: Why We Chose WebGPU for Prisma"
 date: "2026-03-16"
-excerpt: "A deep dive into our decision to bypass WebGL and build Kudo Engine natively on WebGPU for next-generation procedural generation."
+excerpt: "A deep dive into our decision to bypass WebGL and build Prisma natively on WebGPU for next-generation procedural generation."
 tags: ["WebGPU", "Graphics", "Architecture"]
 ---
 
-<p class="lead">For the past decade, WebGL has been the undisputed king of browser-based 3D. But as we began architecting <strong>Kudo Engine</strong> to handle procedural mesh generation and <em>SpringBone physics</em>, we hit a wall.</p>
+<p class="lead">For the past decade, WebGL has been the undisputed king of browser-based 3D. But as we began architecting <strong>Prisma</strong> to handle procedural mesh generation and <em>SpringBone physics</em>, we hit a wall.</p>
 
 ## The Bottleneck of WebGL
 

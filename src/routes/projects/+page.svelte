@@ -17,21 +17,18 @@
         <div class="thumbnail kudo-thumb">
           <div class="mesh-pattern"></div>
         </div>
-        <div class="content">
+        <!-- <div class="content">
           <div class="meta">
             <span class="badge">Flagship Project</span>
-            <a href="https://kudo.graphics/" class="launch-btn">Launch Tool →</a>
+            <a href="https://kudo.graphics/" class="launch-btn">Launch Site →</a>
           </div>
-          <h2>Kudo Engine <small>(WIP)</small></h2>
+          <h2>Kudo<small>(WIP)</small></h2>
           <p>
             A node-based 3D generation engine built natively for the web. 
             Designed to bypass desktop tools like Unity, allowing for AI accessory 
             generation and SpringBone physics handling directly in-browser.
           </p>
-          <div class="tech-stack">
-            <span>WebGPU</span><span>Node-based</span><span>GenAI</span>
-          </div>
-        </div>
+        </div> -->
       </article>
 
       <article class="bento-item inspector-card">
@@ -60,7 +57,7 @@
       <article class="bento-item ide-card">
         <div class="content">
           <div class="header-inline">
-            <h3>OpenCV Live IDE</h3>
+            <h3>Venara Editor</h3>
             <div class="tech-stack">
               <span>Rust (Tauri)</span><span>Python</span><span>OpenCV</span>
             </div>
